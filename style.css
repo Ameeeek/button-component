@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'montserrat', serif;
+    font-weight: 600;
+    display:flex;
+}
+aside{
+    display:flex;
+    flex-direction:column;
+    font-size: 24px;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+main{
+    padding: 2rem;
+}
+.button-container button{
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family:'montserrat', serif;
+    cursor:pointer;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.button-description{
+    display:flex;
+}
+.button-description p{
+    margin-right: 2rem;
+
+}
+.default, .outline, .text, .disabledShadow, .disabled, .buttonStart button, .buttonEnd button, .size-sm, .size-md, .size-lg,.default,.primary,.secondary,.danger{
+    border: transparent;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.text, .text-active{
+    color: blue;
+}
+.buttonStart button{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 1rem;
+}
+.buttonIcon-container{
+    display:flex;
+}
+.buttonEnd button{
+    display:flex;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+.disabledShadow, .disabledShadow-active:hover, .disabledShadow-active:focus, .buttonEnd button, .buttonStart button, .size-sm ,.size-md, .size-lg{
+    background-color: blue;
+    color:white;
+}
+.disabled, .disabled-active:hover, .disabled-active:focus{
+    color:gray;
+}
+.outline, .outline-active{
+    border: 2px solid blue;
+}
+.outline-active:focus, .outline-active:hover{
+    border: 2px solid blue;
+}
+.default-active, .outline-active, .text-active, .disabledShadow-active, .disabled-active, .default-active, .primary-active, .secondary-active,.danger-active{
+    border: transparent;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.default-active:focus, .default-active:hover{
+    background-color: gray;
+}
+aside a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: gray;
+}
+.active{
+    color: black;
+}
+.size-sm{
+    font-size: 12px !important;
+}
+.size-md{
+    font-size: 18px !important;
+}
+.size-lg{
+    font-size: 24px !important;
+}
+.default{
+    color: gray;
+}
+.primary{
+    color:white;
+    background-color: blue;
+}
+.secondary{
+    color:white;
+    background-color: purple;
+}
+.danger{
+    color:white;
+    background-color: red;
+}
+.default-active:hover, .default-active:focus{
+    color: white;
+    background-color:gray;
+}
+.primary-active:hover, .primary-active:focus{
+    color:white;
+    background-color: blue;
+}
+.secondary-active:hover, .secondary-active:focus{
+    color:white;
+    background-color: purple;
+}
+.danger-active:hover, .danger-active:focus{
+    color:white;
+    background-color: red;
+}
